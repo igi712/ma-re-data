@@ -1,0 +1,43 @@
+"330161/330161-3.json"
+"group_1"
+{"bg":"bg_adv_21161.jpg"}
+{"bgm":"bgm03_story10"}
+["ja","粟根 こころ","あった…！@結界…！"]
+["ja","粟根 こころ","…行かなきゃ…！"]
+["ja","粟根 こころ","私が“加賀見まさら”と出会ったのは@私が魔法少女になってから@少し経ったくらいの頃だった"]
+{"bg":"bg_adv_47104.jpg"}
+["ja","粟根 こころ","（…ここまで…@使い魔が全然いない…）"]
+["ja","粟根 こころ","（でも結界があるってことは…@最深部に魔女はいるんだよね？）"]
+["ja","粟根 こころ","（使い魔は…[wait:1.0][chara:301600:cheek_0][chara:301600:face_mtn_ex_050.exp.json]別の人が@もう全部倒したってこと…？）"]
+{"bg":"bg_adv_46104.jpg"}
+{"bgm":"stop"}
+{"bgm":"bgm01_anime15"}
+["ja","粟根 こころ","――っ!?"]
+["ja","加賀見 まさら","[flashEffect::flashWhite2][se:4061_landing_jump5]ふっ…！"]
+["ja","","[flashEffect:flashRed2][chara:6104:effect_shake][se:6106_hit_slash_03_h][bgEffect:shakeLarge]………！？"]
+["ja","加賀見 まさら","[flashEffect::flashWhite2][se:4061_landing_jump5]ハァ!!"]
+["ja","","[flashEffect:flashRed2][se:6106_hit_slash_03_h][chara:6104:effect_shake][bgEffect:shakeLarge]………！？！？"]
+["ja","粟根 こころ","（この人…@すごく強い…）"]
+["ja","粟根 こころ","（やっぱり…この人が@使い魔も全部倒したんだ…）"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]…！！"]
+["ja","粟根 こころ","危ないっ…!!"]
+["ja","粟根 こころ","え…!?"]
+["ja","加賀見 まさら","[flashEffect::flashWhite2][se:4061_landing_jump5]ァア!!"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]…！！！！"]
+["ja","粟根 こころ","（魔女の攻撃を@避けるどころか…）"]
+["ja","粟根 こころ","（真正面から@向かっていった…!?）"]
+["ja","加賀見 まさら","[flashEffect::flashWhite2][se:4061_landing_jump5]ハッ!!"]
+["ja","加賀見 まさら","[flashEffect:flashRed2][chara:302900:effect_shake][se:3001_chara_damage][bgEffect:shakeLarge]ぐっ…!!"]
+["ja","粟根 こころ","（この人…@攻めることしかしてない…）"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]…！！！"]
+["ja","粟根 こころ","（まるで…）"]
+["ja","粟根 こころ","（死ぬことを@少しも恐れてないみたい…）"]
+["ja","粟根 こころ","――っ!?"]
+["ja","加賀見 まさら","――っ!?@[wait:1.0][chara:302900:lipSynch_1]こっち…!?"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]…！！！！！"]
+["ja","加賀見 まさら","チッ…！"]
+["ja","","[flashEffect:flashRed2][chara:6104:effect_shake][surround:3016A03][bgEffect:shakeLarge]………！"]
+["ja","加賀見 まさら","――っ!?"]
+["ja","粟根 こころ","大丈夫!?"]
+["ja","加賀見 まさら","…気が付かなかった@ほかの魔法少女も来てたのね"]
+["ja","粟根 こころ","私がサポートします…！"]
