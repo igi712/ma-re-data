@@ -1,0 +1,27 @@
+name: Purge Repository History
+on:
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Git Config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Rewrite History to Single Commit
+        run: |
+          git checkout --orphan temp-branch
+          git add -A
+          git commit -m "System: History purged to save bandwidth"
+          git branch -D main
+          git branch -m main
+          git push -f origin main
