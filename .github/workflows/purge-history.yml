@@ -1,4 +1,4 @@
-name: Purge Repository History
+name: Purge Repository History & Remove Heavy Media
 on:
   workflow_dispatch:
 
@@ -17,11 +17,24 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Rewrite History to Single Commit
+      - name: Remove Heavy Assets & Rewrite History
         run: |
+          # 1. Create a fresh branch with no history
           git checkout --orphan temp-branch
+          
+          # 2. Physical removal of the massive media folders
+          rm -rf Sound Video Video_en
+          rm -rf resource/movie resource/movie_en resource/sound_native
+          
+          # 3. Stage the lightweight code, text, and native images
           git add -A
-          git commit -m "System: History purged to save bandwidth"
+          
+          # 4. Create the single clean commit
+          git commit -m "System: Purged history and extracted heavy media binaries"
+          
+          # 5. Overwrite the main branch locally
           git branch -D main
           git branch -m main
+          
+          # 6. Force-push the lightweight repository (will succeed instantly)
           git push -f origin main
