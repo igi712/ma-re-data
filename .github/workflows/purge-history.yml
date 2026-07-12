@@ -1,4 +1,4 @@
-name: Purge Repository History & Remove Heavy Media
+name: Purge Repository History & Remove All Heavy Binaries
 on:
   workflow_dispatch:
 
@@ -17,22 +17,22 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Remove Heavy Assets & Rewrite History
+      - name: Nuke All Heavy Assets & Rewrite History
         run: |
           # 1. Create a fresh branch with no history
           git checkout --orphan temp-branch
           
-          # 2. Physical removal of the massive media folders
+          # 2. Physical removal of ALL heavy media and image directories
           rm -rf Sound Video Video_en
-          rm -rf resource/movie resource/movie_en resource/sound_native
+          rm -rf resource/image_native resource/movie resource/movie_en resource/sound_native
           
-          # 3. Stage the lightweight code, text, and native images
+          # 3. Stage only the lightweight code, tools, and text translation JSONs
           git add -A
           
           # 4. Create the single clean commit
-          git commit -m "System: Purged history and extracted heavy media binaries"
+          git commit -m "System: Cleaned repository core (removed assets > 2GB)"
           
-          # 5. Overwrite the main branch locally
+          # 5. Overwrite the main branch locally on the runner
           git branch -D main
           git branch -m main
           
