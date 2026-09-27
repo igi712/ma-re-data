@@ -1,0 +1,19 @@
+name: Remote cleanup
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type DELETE to confirm deleting the stale branch below"
+        required: true
+        default: "no"
+
+jobs:
+  delete-stale-branch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Delete copilot/fix-purge-failing-job (points at pre-purge history)
+        if: inputs.confirm == 'DELETE'
+        run: gh api -X DELETE "/repos/${{ github.repository }}/git/refs/heads/copilot/fix-purge-failing-job"
