@@ -1,0 +1,54 @@
+"205703/205703-4_P2O5p.json"
+"group_1"
+{"bg":"bg_adv_46105.jpg"}
+{"bgm":"bgm01_anime15"}
+["ja","さやか","ほらほら！こっちだよ！"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]謨ｷｯ迚縺ｫ繧ｩ!!"]
+["ja","さやか","残念！@当たらないんだなー！"]
+["ja","","繧縺阪縺ｪ繧ｽ難?↑繧！"]
+["ja","さやか","隙が出来た！@…ほむら！"]
+["ja","ほむら","[flashEffect:flashWhite2][se:4053_landing_throw2]はい、行きます！@えぇいっ!!"]
+["ja","","[flashEffect:flashRed2][se:6055_hit_strike_04_s][chara:6105:effect_shake][bgEffect:shakeLarge]豈帙≦螳ｶ鬧?ｈ縺!?"]
+["ja","ほむら","鹿目さん、とどめを！"]
+["ja","まどか","任せて！"]
+["ja","まどか","[flashEffect:flashWhite2][se:5009_shooting_05_h]やぁああっ！"]
+["ja","","募ｰ驕弱℃大蠑･ｳｷ!?!?"]
+{"bgm":"stop"}
+{"bg":"bg_adv_21151.jpg"}
+{"bgm":"bgm03_story06"}
+["ja","さやか","はぁ…@さすがに連日はしんどいね"]
+["ja","まどか","…うん、消費も激しいから@グリーフシードのストックも…"]
+["ja","ほむら","…うん"]
+["ja","さやか","…………"]
+{"bgm":"stop"}
+["ja","まどか","[chara:200101:effect_ef_adv_01][se:7201_detect_magic]――っ!?"]
+["ja","まどか","また、魔女…"]
+["ja","さやか","行こう"]
+["ja","さやか","見滝原を守れるのは@あたしたちだけだよ"]
+["ja","ほむら","そうだね…"]
+{"bg":"bg_adv_46000.jpg"}
+{"bgm":"bgm01_battle04"}
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]ボ　ボーン　ギギーーー↑"]
+["ja","さやか","[flashEffect:flashRed2][se:3001_chara_damage][chara:200400:effect_shake][bgEffect:shakeLarge]うぁあ…！"]
+["ja","まどか","さやかちゃん！"]
+["ja","さやか","だ、大丈夫！"]
+["ja","ほむら","でも、この魔女…@今までの魔女より強い…！"]
+["ja","まどか","また来るよ！"]
+["ja","さやか","させるか！"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]ボ　ボ　ボーン ギィィィ↓"]
+["ja","さやか","[flashEffect:flashRed2][se:3001_chara_damage][chara:200400:effect_shake][bgEffect:shakeLarge]うっ…ぐっ…！"]
+["ja","ほむら","美樹さん！@[chara:200300:lipSynch_0][wait:0.8][chara:303201:motion_1][chara:200300:cheek_0][chara:200300:face_mtn_ex_031.exp.json][chara:200300:lipSynch_1]ごめんなさい…私を庇って…"]
+["ja","まどか","わたしも庇ってもらってばかり…@そのせいで…"]
+["ja","さやか","気にしないで！@治癒力があたしの自慢だからさ！"]
+["ja","まどか","でも…"]
+["ja","さやか","それより、早く倒さないと！@他にも魔女が出てるかもしれない"]
+["ja","まどか","でも、さやかちゃん！"]
+["ja","さやか","[flashEffect:flashWhite2][surround:2004A02]はぁっ！"]
+["ja","","[flashEffect:flashRed2][surround:2004A03][chara:6000:effect_shake][bgEffect:shakeLarge]ボ　ボーン　ボー"]
+["ja","まどか","ソウルジェムが…！"]
+["ja","さやか","えっ…？"]
+["ja","さやか","…あっ"]
+["ja","さやか","…………"]
+["ja","","[flashEffect:flashWhite2][bgEffect:shakeSmall]ギィィ↑　ギーー↓　ギィィィ↓"]
+["ja","さやか","[flashEffect:flashRed2][se:3001_chara_damage][chara:200400:effect_shake][bgEffect:shakeLarge]うぁあああ…!!"]
+["ja","まどか","さやかちゃん…！"]
